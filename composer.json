@@ -18,7 +18,10 @@
             "tests\\": "tests/"
         }
     },
-    "require": {},
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "weew/php-app": "^2.10"
+    },
     "require-dev": {
         "satooshi/php-coveralls": "^0.6.1",
         "phpspec/phpspec": "^2.4",
