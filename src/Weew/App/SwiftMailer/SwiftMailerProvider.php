@@ -2,6 +2,7 @@
 
 namespace Weew\App\SwiftMailer;
 
+use Swift_Mailer;
 use Weew\Container\IContainer;
 
 class SwiftMailerProvider {
@@ -21,5 +22,11 @@ class SwiftMailerProvider {
         $container->set([
             ISwiftMailerManager::class, SwiftMailerManager::class
         ], SwiftMailerManager::class)->singleton();
+        
+        $container->set([
+            SwiftMailer::class, Swift_Mailer::class
+        ], function(SwiftMailerManager $swiftMailerManager) {
+            return $swiftMailerManager->getMailer();
+        });
     }
 }

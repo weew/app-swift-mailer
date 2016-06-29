@@ -4,8 +4,10 @@ namespace tests\spec\Weew\App\SwiftMailer;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
+use Swift_Mailer;
 use Weew\App\SwiftMailer\ISwiftMailerConfig;
 use Weew\App\SwiftMailer\ISwiftMailerManager;
+use Weew\App\SwiftMailer\SwiftMailer;
 use Weew\App\SwiftMailer\SwiftMailerManager;
 use Weew\App\SwiftMailer\SwiftMailerProvider;
 use Weew\Container\Container;
@@ -27,12 +29,14 @@ class SwiftMailerProviderSpec extends ObjectBehavior {
         it($container->has(ISwiftMailerConfig::class))->shouldBe(true);
     }
 
-    function it_initializes(IContainer $container) {
+    function it_initializes() {
         $container = new Container();
         $this->beConstructedWith($container);
         $this->initialize($container);
 
         it($container->has(ISwiftMailerManager::class))->shouldBe(true);
         it($container->has(SwiftMailerManager::class))->shouldBe(true);
+        it($container->has(SwiftMailer::class))->shouldBe(true);
+        it($container->has(Swift_Mailer::class))->shouldBe(true);
     }
 }
