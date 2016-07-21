@@ -1,6 +1,6 @@
 {
-    "name": "weew/php-app-swift-mailer",
-    "description": "Integration of the swiftmailer/swiftmailer into the weew/php-app package.",
+    "name": "weew/app-swift-mailer",
+    "description": "Integration of the swiftmailer/swiftmailer into the weew/app package.",
     "license": "MIT",
     "authors": [
         {
@@ -20,12 +20,12 @@
     },
     "require": {
         "swiftmailer/swiftmailer": "^5.4",
-        "weew/php-app": "^2.10"
+        "weew/app": "^2.10"
     },
     "require-dev": {
         "satooshi/php-coveralls": "^0.6.1",
         "phpspec/phpspec": "^2.4",
-        "weew/php-helpers-phpspec": "^1.0",
+        "weew/helpers-phpspec": "^1.0",
         "henrikbjorn/phpspec-code-coverage": "^2.0"
     }
 }

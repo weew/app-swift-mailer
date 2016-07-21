@@ -1,10 +1,10 @@
 # App SwiftMailer provider
 
-[![Build Status](https://img.shields.io/travis/weew/php-app-swift-mailer.svg)](https://travis-ci.org/weew/php-app-swift-mailer)
-[![Code Quality](https://img.shields.io/scrutinizer/g/weew/php-app-swift-mailer.svg)](https://scrutinizer-ci.com/g/weew/php-app-swift-mailer)
-[![Test Coverage](https://img.shields.io/coveralls/weew/php-app-swift-mailer.svg)](https://coveralls.io/github/weew/php-app-swift-mailer)
-[![Version](https://img.shields.io/packagist/v/weew/php-app-swift-mailer.svg)](https://packagist.org/packages/weew/php-app-swift-mailer)
-[![Licence](https://img.shields.io/packagist/l/weew/php-app-swift-mailer.svg)](https://packagist.org/packages/weew/php-app-swift-mailer)
+[![Build Status](https://img.shields.io/travis/weew/app-swift-mailer.svg)](https://travis-ci.org/weew/app-swift-mailer)
+[![Code Quality](https://img.shields.io/scrutinizer/g/weew/app-swift-mailer.svg)](https://scrutinizer-ci.com/g/weew/app-swift-mailer)
+[![Test Coverage](https://img.shields.io/coveralls/weew/app-swift-mailer.svg)](https://coveralls.io/github/weew/app-swift-mailer)
+[![Version](https://img.shields.io/packagist/v/weew/app-swift-mailer.svg)](https://packagist.org/packages/weew/app-swift-mailer)
+[![Licence](https://img.shields.io/packagist/l/weew/app-swift-mailer.svg)](https://packagist.org/packages/weew/app-swift-mailer)
 
 
 ## Table of contents
@@ -16,11 +16,11 @@
 
 ## Installation
 
-`composer require weew/php-app-swift-mailer`
+`composer require weew/app-swift-mailer`
 
 ## Introduction
 
-This package integrates the [swiftmailer/swiftmailer](https://github.com/swiftmailer/swiftmailer) library into the [weew/php-app](https://github.com/weew/php-app) package.
+This package integrates the [swiftmailer/swiftmailer](https://github.com/swiftmailer/swiftmailer) library into the [weew/app](https://github.com/weew/app) package.
 
 
 ## Usage
